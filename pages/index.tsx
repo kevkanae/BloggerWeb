@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Login from "./login";
 import React, { useEffect, useState } from "react";
+
 import Landing from "./landing";
 export const Index = () => {
   const [session] = useSession();
@@ -20,7 +21,7 @@ export const Index = () => {
     return (
       <>
         <Layout>
-          <Header />
+          {/* <Header /> */}
           <BlogList />
         </Layout>
       </>
